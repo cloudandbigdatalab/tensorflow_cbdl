@@ -12,4 +12,5 @@ RUN git clone https://github.com/tensorflow/tensorflow.git
 
 COPY start_code.sh /
 
+CMD chmod +x start_code.sh
 CMD ./start_code.sh

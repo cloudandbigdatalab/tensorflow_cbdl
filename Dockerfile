@@ -10,4 +10,6 @@ RUN easy_install pip
 
 RUN git clone https://github.com/tensorflow/tensorflow.git
 
-CMD python /tensorflow/tensorflow/tensorboard/tensorboard.py --logdir=/tmp/cifar10_train
+COPY start_code.sh /
+
+CMD ./start_code.sh

@@ -8,4 +8,4 @@ RUN apt-get install -y git
 
 RUN easy_install pip
 
-git clone https://github.com/tensorflow/tensorflow.git
+RUN git clone https://github.com/tensorflow/tensorflow.git

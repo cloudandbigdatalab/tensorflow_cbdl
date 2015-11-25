@@ -1,3 +1,3 @@
 # tensorflow_cbdl
 
-yes tensorflow
+Prepared this for a OpenStack cloud demo at SC15
